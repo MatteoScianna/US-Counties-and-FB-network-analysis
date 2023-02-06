@@ -29,7 +29,7 @@ For this network analysis is performed at two levels:
 ### County level
 The function choropleth_fips returns, for a given county, a choropleth where the color varies according to the SCI index related to the edge connecting the chosen and all other counties. Below, an example.
 
-<img src="https://github.com/MatteoScianna/US-Counties-and-FB-network-analysis/blob/main/img/sci_variation.jpg" width="350" height="300">
+<img src="https://github.com/MatteoScianna/US-Counties-and-FB-network-analysis/blob/main/img/sci_variation.jpg" width="420" height="300">
 
 Since the network is fully connected, in order to perform some analysis without obtaining pointless results, a reduced version of the network is proposed, by cutting those edges which SCI index is below 400, this network we'll be referred to as g_counties_reduced. 
 For the resulting network, indices similar to the ones calculated for the US counties network are calculated. Below, the choropleth of communities detected with the Louvain method. 
@@ -44,4 +44,4 @@ For the resulting graph, a choropleth is plotted according a chosen centrality m
 The image below shows the resulting plot for Closeness Centrality and weight_sci. 
 Note that while for the choropleth the network g_states_reduced has been considered, for the nodes and edges the whole network is been used. 
 
-<img src="https://github.com/MatteoScianna/US-Counties-and-FB-network-analysis/blob/main/img/choropleth%2Bnetwork.jpg" width="350" height="300">
+<img src="https://github.com/MatteoScianna/US-Counties-and-FB-network-analysis/blob/main/img/choropleth%2Bnetwork.jpg" width="420" height="300">
