@@ -38,15 +38,15 @@ For the resulting network, indices similar to the ones calculated for the US cou
 
 As before, an alternative version of the network is proposed by merging together nodes belonging to the same state. In order to adjust edges weight, three possible options are proposed.
 Be $I = {i_{1},...,i_{n}}$ and $J = {j_{1},..,j_{m}}$ the sets of all counties belonging to states $I$ and $J$, respectively. 
-Be $\mathbb{1}_{\{i_{l},j_{k}\}}$ the indicator function, equal to $1$ iff exists a path connecting counties $i_{l}$ and $j_{k}$, and be $sci(i_{l},j_{k})$ the social connectivness index corresponding to the edge. 
+Be ${1}_{\{i_{l},j_{k}\}}$ the indicator function, equal to $1$ iff exists a path connecting counties $i_{l}$ and $j_{k}$, and be $sci(i_{l},j_{k})$ the social connectivness index corresponding to the edge. 
 
-- "weight"  of the edge connecting $I$ and $J$ is defined as $w_{1_{(I,J)}} = \sum \limits_{l,k} \mathbb{1}_{\{i_{l},j_{k}\}}$
+- "weight"  of the edge connecting $I$ and $J$ is defined as $w_{1_{(I,J)}} = \sum \limits_{l,k} {1}_{\{i_{l},j_{k}\}}$
 
-- "weight_sci"  of the edge connecting $I$ and $J$ is defined as $w_{2_{(I,J)}} = \sum \limits_{l,k} sci(i_{l},j_{k}) \cdot \mathbb{1}_{\{i_{l},j_{k}\}}$
+- "weight_sci"  of the edge connecting $I$ and $J$ is defined as $w_{2_{(I,J)}} = \sum \limits_{l,k} sci(i_{l},j_{k}) \cdot {1}_{\{i_{l},j_{k}\}}$
 
 - As for "weight_spacial", given $|I-J|$ a distance measure $^1$ between states $I$ and $J$ and $\alpha_{1}, \alpha_{2} \in [0,1]$ s.t. $\alpha_{1}+\alpha_{2} =1$, we can define
 
-<br>$w_{3_{(I,J)}} = \alpha_{1} \cdot w_{2_{(I,J)}}+\alpha_{2} \cdot |I-J|$ the weight given to every edge $^{2,3}$.
+$w_{3_{(I,J)}} = \alpha_{1} \cdot w_{2_{(I,J)}}+\alpha_{2} \cdot |I-J|$ the weight given to every edge $^{2,3}$.
 
 $^1$ Here it has been chosen to use a spatial geodesic distance between states, but of course it is possible to use other concepts of distances, such as the number of steps necessary to go from one state to the other inside the network.
 $^2$ As a consequence of the decision of using a spacial distance between ststes, in this case $log(|I-J|)$ is applied.
