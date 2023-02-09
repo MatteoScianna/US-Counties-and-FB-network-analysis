@@ -45,7 +45,7 @@ Be $1_{{i_{l},j_{k}}}$ the indicator function, equal to $1$ iff exists a path co
 
 - "weight"  of the edge connecting $I$ and $J$ is defined as $w_{1_{(I,J)}} = \sum_{k,l} 1_{i_{l},j_{k}}$ 
 
-- "weight_sci"  of the edge connecting $I$ and $J$ is defined as $w_{2_{(I,J)}} = \sum_{l,k} sci(i_{l},j_{k}) \cdot 1_{i_{l},j_{k}$
+- "weight_sci"  of the edge connecting $I$ and $J$ is defined as $w_{2_{(I,J)}} = \sum_{l,k} sci(i_{l},j_{k}) \cdot 1_{i_{l},j_{k}}$
 
 - As for "weight_spacial", given $|I-J|$ a distance measure $^1$ between states $I$ and $J$ and $\alpha_{1}, \alpha_{2} \in [0,1]$ s.t. $\alpha_{1}+\alpha_{2} =1$, we can define
 
