@@ -37,7 +37,10 @@ For the resulting network, indices similar to the ones calculated for the US cou
 ### State level 
 
 As before, an alternative version of the network is proposed by merging together nodes belonging to the same state. In order to adjust edges weight, three possible options are proposed.
-Be $I = {i_{1},...,i_{n}}$ and $J = {j_{1},..,j_{m}}$ the sets of all counties belonging to states $I$ and $J$, respectively. 
+Be
+$I = {i_{1},...,i_{n}}, J = {j_{1},..,j_{m}}$ 
+the sets of all counties belonging to states $I$ and $J$, respectively.
+
 Be $1_{{i_{l},j_{k}}}$ the indicator function, equal to $1$ iff exists a path connecting counties $i_{l}$ and $j_{k}$, and be $sci(i_{l},j_{k})$ the social connectivness index corresponding to the edge. 
 
 - "weight"  of the edge connecting $I$ and $J$ is defined as $w_{1_{(I,J)}} = \sum \limits_{l,k} 1_{{i_{l},j_{k}}$
