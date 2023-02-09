@@ -43,9 +43,10 @@ the sets of all counties belonging to states $I$ and $J$, respectively.
 
 Be $1_{{i_{l},j_{k}}}$ the indicator function, equal to $1$ iff exists a path connecting counties $i_{l}$ and $j_{k}$, and be $sci(i_{l},j_{k})$ the social connectivness index corresponding to the edge. 
 
-- "weight"  of the edge connecting $I$ and $J$ is defined as $w_{1_{(I,J)}} = \sum_{k,l}$ 
+- "weight"  of the edge connecting $I$ and $J$ is defined as $w_{1_{(I,J)}} = \sum_{k,l} 1_{i_{l},j_{k}}$
 
-- "weight_sci"  of the edge connecting $I$ and $J$ is defined as $w_{2_{(I,J)}} = \sum_{l,k}$ 
+- "weight_sci"  of the edge connecting $I$ and $J$ is defined as $w_{2_{(I,J)}} = \sum_{l,k} sci(i_{l},j_{k}) \cdot {1}_{i_{l},j_{k}}$
+
 - As for "weight_spacial", given $|I-J|$ a distance measure $^1$ between states $I$ and $J$ and $\alpha_{1}, \alpha_{2} \in [0,1]$ s.t. $\alpha_{1}+\alpha_{2} =1$, we can define
 
 $w_{3_{(I,J)}} = \alpha_{1} \cdot w_{2_{(I,J)}}+\alpha_{2} \cdot |I-J|$ the weight given to every edge $^{2,3}$.
