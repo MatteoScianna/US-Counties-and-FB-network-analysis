@@ -51,9 +51,9 @@ Be $1_{{i_{l},j_{k}}}$ the indicator function, equal to $1$ iff exists a path co
 
 $w_{3_{(I,J)}} = \alpha_{1} \cdot w_{2_{(I,J)}}+\alpha_{2} \cdot |I-J|$ the weight given to every edge $^{2,3}$.
 
-$^1$ Here it has been chosen to use a spatial geodesic distance between states, but of course it is possible to use other concepts of distances, such as the number of steps necessary to go from one state to the other inside the network.
-$^2$ As a consequence of the decision of using a spacial distance between ststes, in this case $log(|I-J|)$ is applied.
-$^3$ Note finally that the same procedure can be applied if $I=J$, such for counties having a common edge but belonging to the same state. The only difference in this case will be that obviously $w_{i_{(I,I)}}$ will be a node attribute. 
+$$^1$$ Here it has been chosen to use a spatial geodesic distance between states, but of course it is possible to use other concepts of distances, such as the number of steps necessary to go from one state to the other inside the network.
+$$^2$$ As a consequence of the decision of using a spacial distance between ststes, in this case $log(|I-J|)$ is applied.
+$$^3$$ Note finally that the same procedure can be applied if $I=J$, such for counties having a common edge but belonging to the same state. The only difference in this case will be that obviously $w_{i_{(I,I)}}$ will be a node attribute. 
 
 
 
