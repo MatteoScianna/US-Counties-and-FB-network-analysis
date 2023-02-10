@@ -65,6 +65,6 @@ Note that while for the choropleth the network g_states_reduced has been conside
 
 ## References
 
-[1] https://github.com/luzuzek/spatial_clustering_selection_influence/tree/main/data/datasets
-\\ [2] Bailey, Michael, et al. "Social connectedness: Measurement, determinants, and effects." Journal of Economic Perspectives 32.3 (2018): 259-80.
+<br>[1] https://github.com/luzuzek/spatial_clustering_selection_influence/tree/main/data/datasets
+<br> [2] Bailey, Michael, et al. "Social connectedness: Measurement, determinants, and effects." Journal of Economic Perspectives 32.3 (2018): 259-80.
 
