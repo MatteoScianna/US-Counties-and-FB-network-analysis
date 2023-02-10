@@ -62,3 +62,9 @@ The image below shows the resulting plot for Closeness Centrality and weight_sci
 Note that while for the choropleth the network g_states_reduced has been considered, for the nodes and edges the whole network is been used. 
 
 <img src="https://github.com/MatteoScianna/US-Counties-and-FB-network-analysis/blob/main/img/choropleth%2Bnetwork.jpg" width="420" height="300">
+
+## References
+
+[1] https://github.com/luzuzek/spatial_clustering_selection_influence/tree/main/data/datasets
+[2] Bailey, Michael, et al. "Social connectedness: Measurement, determinants, and effects." Journal of Economic Perspectives 32.3 (2018): 259-80.
+
